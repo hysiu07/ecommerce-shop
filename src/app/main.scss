@@ -1,0 +1,19 @@
+main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 50px;
+
+	div.product {
+		padding: 20px;
+		margin-bottom: 20px;
+		width: 250px;
+		height: 450px;
+		border: 1px solid black;
+	}
+	img {
+		width: 100%;
+		height: 250px;
+	}
+}
